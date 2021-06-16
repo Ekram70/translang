@@ -1,0 +1,102 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    padding: 0rem 8rem;
+  }
+  .section-header {
+    /* background-position-y: -28rem; */
+    background-size: 50%;
+  }
+
+  .hero-navbar {
+    padding: 2.5rem 0rem;
+  }
+
+  .hero-navbar-list-item:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+
+  .hero-body {
+    margin-top: 15rem;
+    width: 45rem;
+  }
+
+  .hero-body-text {
+    width: 80%;
+  }
+
+  .hero-body > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .section-header {
+    background-size: 70%;
+  }
+
+  .container {
+    padding: 0rem 2rem;
+  }
+
+  .hero-navbar {
+    padding: 3rem 0rem;
+    position: relative;
+  }
+
+  .hero-navbar-logo-icon,
+  .hero-navbar-logo-text {
+    display: none;
+  }
+
+  .hero-navbar-menu {
+    display: block;
+  }
+
+  .hero-navbar-list {
+    position: absolute;
+    right: 0;
+    top: 80%;
+    display: none;
+  }
+
+  .hero-navbar-list-item {
+    display: block;
+    text-align: right;
+  }
+
+  .hero-navbar-list-item:not(:last-child) {
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+
+  .btn-nav {
+    display: none;
+  }
+
+  .hero-body {
+    width: 35rem;
+    margin-top: 18rem;
+  }
+
+  .hero-body > *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .hero-body-heading {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+}
+
+.display-block {
+  display: block;
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url(../fonts/AvenirLTProBook.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url(../fonts/AvenirLTProMedium.otf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url(../fonts/AvenirLTProHeavy.otf);
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+    font-family: "Muli-Extra-Bold";
+    src: url(../fonts/Muli-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 800;
+  }
+  
