@@ -1,0 +1,134 @@
+/* Default CSS */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #fb6154;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Avenir-Regular";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* Hero Section CSS Start */
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  position: relative;
+}
+
+.hero-navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.hero-navbar-logo-icon,
+.hero-navbar-logo-text {
+  display: none;
+}
+
+.hero-navbar-menu {
+  display: block;
+  background-color: #fb6154;
+  padding: 1rem;
+}
+
+.hero-navbar-list {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  text-align: right;
+  display: none;
+  background-color: #161e6d;
+}
+
+.hero-navbar-list-item {
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.hero-navbar-list-item:hover {
+  background-color: #fb6154;
+}
+
+.btn {
+  padding: 1.5rem 3rem;
+  border-radius: 3.2rem;
+  background-image: linear-gradient(
+    0deg,
+    rgb(251, 81, 94) 0%,
+    rgb(251, 105, 79) 100%
+  );
+  text-transform: uppercase;
+  font-family: "Muli-Extra-Bold";
+  font-size: 1.2rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-image: linear-gradient(
+    180deg,
+    rgb(251, 81, 94) 0%,
+    rgb(251, 105, 79) 100%
+  );
+}
+
+.btn-nav {
+  display: none;
+}
+
+.hero-body {
+  width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.hero-body > *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.hero-body-heading {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: #161e6d;
+  text-transform: capitalize;
+}
+
+.hero-body-text {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  color: #52585b;
+}
+
+.display-block {
+  display: block;
+}
