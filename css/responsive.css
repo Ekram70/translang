@@ -9,14 +9,13 @@
     display: block;
     position: static;
     background-color: transparent;
-    font-size: 1.7rem;
   }
 
   .hero-navbar-list-item:not(:last-child) {
     display: inline-block;
     color: #161e6d;
     padding: 0;
-    margin-left: 1rem;
+    margin-right: 1.5rem;
     position: relative;
   }
 
@@ -36,106 +35,65 @@
     opacity: 0.5;
   }
 
+  .hero-navbar-list-item:not(:last-child):hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+  }
+
   .hero-body {
-    width: 45rem;
+    margin-top: 10rem;
   }
 
   .hero-body-heading {
     font-size: 5rem;
     line-height: 5.5rem;
   }
-}
-
-@media screen and (min-width: 768px) {
-}
-
-/*@media screen and (max-width: 1400px) {
-  .container {
-    padding: 0rem 8rem;
-  }
-  .section-header {
-    background-position-y: -28rem;
-    background-size: 50%;
-  }
-
-  .hero-navbar {
-    padding: 2.5rem 0rem;
-  }
-
-  .hero-navbar-list-item:not(:last-child) {
-    margin-right: 2.5rem;
-  }
-
-  .hero-body {
-    margin-top: 15rem;
-    width: 45rem;
-  }
 
   .hero-body-text {
     width: 80%;
-  }
-
-  .hero-body > *:not(:last-child) {
-    margin-bottom: 2.5rem;
+    margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 1200px) {
-}
+/* css for 768px and above */
 
-@media screen and (max-width: 992px) {
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 576px) {
-  .section-header {
-    background-size: 70%;
+@media screen and (min-width: 768px) {
+  .hero-body-heading {
+    width: 60rem;
+    margin: 0 auto;
   }
 
-  .container {
-    padding: 0rem 2rem;
-  }
-
-  .hero-navbar {
-    padding: 3rem 0rem;
-    position: relative;
-  }
-
-  .hero-navbar-logo-icon,
-  .hero-navbar-logo-text {
-    display: none;
-  }
-
-  .hero-navbar-menu {
-    display: block;
-  }
-
-  .hero-navbar-list {
-    position: absolute;
-    right: 0;
-    top: 80%;
-    display: none;
-  }
-
-  .hero-navbar-list-item {
-    display: block;
-    text-align: right;
-  }
-
-  .hero-navbar-list-item:not(:last-child) {
-    margin-bottom: 0.5rem;
-    margin-right: 0;
+  .hero-body-text {
+    width: 50%;
+    margin: 0 auto;
   }
 
   .btn-nav {
-    display: none;
+    display: inline-block;
+  }
+}
+
+/* css for 992px and above */
+
+@media screen and (min-width: 992px) {
+  .container {
+    padding: 4rem;
   }
 
+  .section-header {
+    background-image: url("../images/hero-background.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 65rem;
+  }
+
+  .hero-navbar-list-item:not(:last-child) {
+    color: #fff;
+  }
   .hero-body {
-    width: 35rem;
-    margin-top: 18rem;
+    margin: 16rem 0;
+    width: 60%;
+    text-align: left;
   }
 
   .hero-body > *:not(:last-child) {
@@ -143,10 +101,68 @@
   }
 
   .hero-body-heading {
-    font-size: 3.5rem;
-    line-height: 5rem;
+    width: 80%;
+    margin: 0;
+  }
+  .hero-body-text {
+    width: 60%;
+    margin: 0;
+  }
+
+  .hero-navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-navbar-logo-img {
+    margin-right: 4.5rem;
+    cursor: pointer;
+  }
+  .hero-navbar-logo-icon,
+  .hero-navbar-logo-text {
+    display: inline-block;
+  }
+
+  .hero-navbar-logo-icon {
+    margin-right: 1.5rem;
+  }
+
+  .hero-navbar-logo-text {
+    cursor: pointer;
+    color: #5b6199;
+  }
+
+  .hero-navbar-logo-text:hover {
+    color: #fb6154;
   }
 }
 
+/* css for 1200px and above */
 
-*/
+@media screen and (min-width: 1200px) {
+  .section-header {
+    background-size: 70rem;
+  }
+
+  .container {
+    padding: 5rem;
+    max-width: 1360px;
+  }
+
+  .hero-body {
+    margin-top: 20rem;
+  }
+
+  .hero-body-heading {
+    width: 60rem;
+  }
+}
+
+/* css for 1400px and above */
+
+@media screen and (min-width: 1400px) {
+  .section-header {
+    background-size: auto;
+  }
+
+}

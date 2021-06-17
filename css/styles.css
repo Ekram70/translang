@@ -30,9 +30,10 @@ ul li {
 }
 
 /* Hero Section CSS Start */
+
 .container {
-  margin: 0 auto;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 .hero-navbar {
@@ -44,18 +45,12 @@ ul li {
   position: relative;
 }
 
-.hero-navbar-logo {
-  display: flex;
-  align-items: center;
-}
-
 .hero-navbar-logo-icon,
 .hero-navbar-logo-text {
   display: none;
 }
 
 .hero-navbar-menu {
-  display: block;
   background-color: #fb6154;
   padding: 1rem;
 }
@@ -106,7 +101,7 @@ ul li {
 }
 
 .hero-body {
-  width: 30rem;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   margin-top: 5rem;
@@ -131,4 +126,8 @@ ul li {
 
 .display-block {
   display: block;
+}
+
+.hero-bg {
+  position: absolute;
 }
