@@ -1,6 +1,9 @@
 /* css for 576px and above */
-
 @media screen and (min-width: 576px) {
+  .section {
+    padding: 3rem;
+  }
+
   .hero-navbar-menu {
     display: none;
   }
@@ -58,6 +61,10 @@
 /* css for 768px and above */
 
 @media screen and (min-width: 768px) {
+  .section {
+    padding: 3rem 4rem;
+  }
+
   .hero-body-heading {
     width: 60rem;
     margin: 0 auto;
@@ -76,10 +83,6 @@
 /* css for 992px and above */
 
 @media screen and (min-width: 992px) {
-  .container {
-    padding: 4rem;
-  }
-
   .section-header {
     background-image: url("../images/hero-background.png");
     background-position: right top;
@@ -90,6 +93,7 @@
   .hero-navbar-list-item:not(:last-child) {
     color: #fff;
   }
+
   .hero-body {
     margin: 16rem 0;
     width: 60%;
@@ -104,6 +108,7 @@
     width: 80%;
     margin: 0;
   }
+
   .hero-body-text {
     width: 60%;
     margin: 0;
@@ -118,6 +123,7 @@
     margin-right: 4.5rem;
     cursor: pointer;
   }
+
   .hero-navbar-logo-icon,
   .hero-navbar-logo-text {
     display: inline-block;
@@ -140,12 +146,15 @@
 /* css for 1200px and above */
 
 @media screen and (min-width: 1200px) {
+  .section {
+    padding: 4rem 6rem;
+  }
+
   .section-header {
     background-size: 70rem;
   }
 
   .container {
-    padding: 5rem;
     max-width: 1360px;
   }
 
@@ -161,8 +170,35 @@
 /* css for 1400px and above */
 
 @media screen and (min-width: 1400px) {
+  .section {
+    padding: 5.5rem 6rem;
+  }
+
   .section-header {
     background-size: auto;
   }
 
+  .hero-navbar-list-item:not(:last-child) {
+    margin-right: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-body {
+    width: 42rem;
+    margin-top: 25.5rem;
+  }
+
+  .hero-body > *:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+
+  .hero-body-heading {
+    width: 55rem;
+    line-height: 6.5rem;
+  }
+
+  .hero-body-text {
+    line-height: 3.3rem;
+    width: 42rem;
+  }
 }
