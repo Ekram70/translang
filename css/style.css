@@ -161,7 +161,7 @@ img {
 
 /* Features Section CSS Start */
 
-.features-heading {
+.section-heading {
   font-size: 2.5rem;
   line-height: 3.5rem;
   color: #161e6d;
@@ -229,7 +229,7 @@ img {
   position: relative;
 }
 
-.features-heading::before {
+.section-heading::before {
   content: "";
   height: 0.5rem;
   width: 5rem;
@@ -256,3 +256,12 @@ img {
 }
 
 /* Features Section CSS End */
+
+/* Fun Fact css start */
+.section-heading-fun::before {
+  width: 0;
+}
+
+.fun-fact-box {
+  display: flex;
+}
