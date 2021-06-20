@@ -57,7 +57,7 @@
     margin: 0 auto;
   }
 
-  .features-heading {
+  .section-heading {
     font-size: 3.5rem;
     line-height: 4.5rem;
     margin-bottom: 12rem;
@@ -84,6 +84,16 @@
     font-size: 1.6rem;
     line-height: 2.8rem;
   }
+  .section-fun-fact {
+    padding: 10rem 5rem;
+  }
+  .section-heading-fun {
+    margin-bottom: 5rem;
+  }
+  .section-subheading {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
 }
 
 /* css for 768px and above */
@@ -107,7 +117,7 @@
     display: inline-block;
   }
 
-  .features-heading {
+  .section-heading {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 12rem;
@@ -121,6 +131,17 @@
 
   .features-items-box {
     margin: 2.5rem;
+  }
+  .section-fun-fact {
+    padding: 10rem 5rem;
+  }
+  .section-heading-fun {
+    margin-bottom: 5rem;
+  }
+  .section-subheading {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
   }
 }
 
@@ -186,8 +207,20 @@
     color: #fb6154;
   }
 
-  .features-heading {
+  .section-heading {
     max-width: 95rem;
+  }
+
+  .section-fun-fact {
+    background-image: url("../images/fun-fact-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .fun-fact {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }
 
@@ -212,6 +245,10 @@
 
   .hero-body-heading {
     width: 60rem;
+  }
+
+  .section-fun-fact {
+    padding: 20rem 0;
   }
 }
 
@@ -254,8 +291,11 @@
     width: 42rem;
   }
 
-  .features-heading {
+  .section-heading {
     font-size: 4.5rem;
     line-height: 5.5rem;
+  }
+  .section-fun-fact {
+    padding: 30rem 27rem;
   }
 }
