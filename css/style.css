@@ -305,13 +305,13 @@ img {
 
 /* Horizontal chart css */
 
-.horizontal-chart-box {
+.chart-statistics-box {
   text-align: center;
   width: 30rem;
   margin: 0 auto;
 }
 
-.horizontal-chart-box-title {
+.chart-statistics-box-title {
   font-size: 3.5rem;
   line-height: 4.5rem;
   color: #161e6d;
@@ -320,7 +320,7 @@ img {
   margin-bottom: 4rem;
 }
 
-.horizontal-chart-box-text {
+.chart-statistics-box-text {
   font-size: 1.2rem;
   line-height: 1.6rem;
   color: #52585b;
