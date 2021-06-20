@@ -291,11 +291,36 @@
     width: 42rem;
   }
 
+  .section-fun-fact {
+    padding: 30rem 12rem;
+  }
+
   .section-heading {
     font-size: 4.5rem;
     line-height: 5.5rem;
   }
-  .section-fun-fact {
-    padding: 30rem 27rem;
+
+  .section-heading-fun {
+    margin-bottom: 8rem;
+  }
+
+  .section-subheading {
+    margin-bottom: 10rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .fun-fact-box-item:not(:last-child) {
+    margin-right: 18rem;
+  }
+
+  .fun-fact-box-item-number {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .fun-fact-box-item-title {
+    font-size: 3rem;
+    line-height: 5rem;
   }
 }

@@ -285,6 +285,11 @@ img {
   text-align: center;
   margin: 2.5rem;
 }
+
+.fun-fact-box-item-icon {
+  margin-bottom: 3rem;
+}
+
 .fun-fact-box-item-number {
   font-family: "Avenir-Heavy";
   color: #161e6d;
