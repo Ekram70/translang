@@ -283,7 +283,7 @@ img {
 }
 .fun-fact-box-item {
   text-align: center;
-  margin: 2.5rem;
+  margin: 2rem;
 }
 
 .fun-fact-box-item-icon {
@@ -301,4 +301,30 @@ img {
   font-family: "Avenir-Regular";
   font-size: 2rem;
   text-transform: capitalize;
+}
+
+/* Horizontal chart css */
+
+.horizontal-chart-box {
+  text-align: center;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.horizontal-chart-box-title {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: #161e6d;
+  font-family: "Avenir-Heavy";
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+}
+
+.horizontal-chart-box-text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #52585b;
+  text-transform: capitalize;
+  font-family: "Avenir-Regular";
+  margin-bottom: 4rem;
 }

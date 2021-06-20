@@ -94,6 +94,15 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
   }
+
+  .horizontal-chart-box {
+    width: 45rem;
+  }
+
+  .horizontal-chart-box-text {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
 }
 
 /* css for 768px and above */
@@ -222,6 +231,24 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
+
+  .section-horizontal-chart {
+    background: url("../images/horizontal-chart-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 60%;
+    padding: 10rem;
+  }
+
+  .horizontal-chart {
+    padding: 5rem 0;
+  }
+
+  .horizontal-chart-box {
+    margin: 0 0 0 auto;
+    text-align: left;
+    width: 35%;
+  }
 }
 
 /* css for 1200px and above */
@@ -249,6 +276,10 @@
 
   .section-fun-fact {
     padding: 20rem 0;
+  }
+
+  .section-horizontal-chart {
+    padding: 15rem;
   }
 }
 
@@ -311,7 +342,7 @@
   }
 
   .fun-fact-box-item:not(:last-child) {
-    margin-right: 18rem;
+    margin-right: 15rem;
   }
 
   .fun-fact-box-item-number {
@@ -322,5 +353,13 @@
   .fun-fact-box-item-title {
     font-size: 3rem;
     line-height: 5rem;
+  }
+
+  .horizontal-chart {
+    padding: 25rem 0rem;
+  }
+
+  .horizontal-chart-box {
+    max-width: 50rem;
   }
 }
