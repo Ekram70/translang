@@ -9,7 +9,8 @@
 }
 
 /* * {
-  border: 1px solid red;
+  border: 1px dashed red;
+  margin: 3px;
 } */
 
 ::selection {
@@ -18,7 +19,7 @@
 
 html {
   font-size: 10px;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -57,7 +58,7 @@ img {
 }
 
 .container {
-  margin: 0rem auto 8rem;
+  margin: 0rem auto;
 }
 
 /* Navbar CSS */
@@ -258,10 +259,40 @@ img {
 /* Features Section CSS End */
 
 /* Fun Fact css start */
+
 .section-heading-fun::before {
   width: 0;
 }
 
+.section-subheading {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #52585b;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Avenir-Regular";
+  margin-bottom: 5rem;
+}
+
 .fun-fact-box {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.fun-fact-box-item {
+  text-align: center;
+  margin: 2.5rem;
+}
+.fun-fact-box-item-number {
+  font-family: "Avenir-Heavy";
+  color: #161e6d;
+  font-size: 3rem;
+}
+
+.fun-fact-box-item-title {
+  color: #52585b;
+  font-family: "Avenir-Regular";
+  font-size: 2rem;
+  text-transform: capitalize;
 }
