@@ -143,6 +143,30 @@
   .blog-box-item-info {
     padding: 2rem 3rem;
   }
+
+  .footer-top {
+    top: -50%;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 0 5rem;
+  }
+
+  .footer-bottom-list {
+    flex-basis: 50%;
+  }
+
+  .footer-bottom-list:first-child {
+    flex-basis: 100%;
+  }
+
+  .copyright {
+    text-align: left;
+    padding: 0 5rem;
+  }
 }
 
 /* css for 768px and above */
@@ -216,6 +240,29 @@
 
   .blog-box-item {
     flex-basis: 45%;
+  }
+
+  .footer-top {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: -44%;
+    padding: 5rem;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+  }
+
+  .footer-top-left {
+    text-align: left;
+  }
+
+  .footer-top-left h1 {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom-list {
+    flex-basis: 25%;
   }
 }
 
