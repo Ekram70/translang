@@ -164,7 +164,6 @@
   }
 
   .copyright {
-    text-align: left;
     padding: 0 5rem;
   }
 }
@@ -247,10 +246,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: -44%;
-    padding: 5rem;
-    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 32px;
+    top: -37%;
+    padding: 2rem 5rem;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1),
+      0px -15px 60px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer-top::before {
+    content: "";
+    background-color: #fff;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -18px;
+    transform: skewY(2deg);
+    border-radius: 20px 20px 20px 0;
+    z-index: -1;
+  }
+
+  .footer-top::after {
+    content: "";
+    background-color: #fff;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    transform: skewY(-2deg);
+    border-radius: 0 20px 20px 20px;
+    z-index: -1;
   }
 
   .footer-top-left {
@@ -416,6 +443,49 @@
   .testimonial-box-item-modified:nth-child(2) {
     margin-left: auto;
   }
+
+  .footer-top {
+    top: -56%;
+    padding: 2rem 10rem;
+  }
+
+  .footer-top::before {
+    height: 80%;
+    top: -40px;
+    transform: skewY(4deg);
+  }
+
+  .footer-top::after {
+    height: 80%;
+    top: 65px;
+    transform: skewY(-4deg);
+  }
+  .footer-top-left p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .footer-top-left h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+
+  .footer-bottom {
+    margin-top: 20rem;
+  }
+
+  .footer-bottom h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .footer-bottom :is(span, p) {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .copyright {
+    font-size: 1.6rem;
+  }
 }
 
 /* css for 1200px and above */
@@ -457,6 +527,36 @@
 
   .blog-box-item {
     flex-basis: 30%;
+  }
+
+  .footer-top {
+    top: -96%;
+  }
+
+  .footer-top::before {
+    height: 100%;
+    top: -45px;
+  }
+
+  .footer-top::after {
+    height: 100%;
+    top: 54px;
+  }
+
+  .footer-bottom {
+    padding: 0;
+  }
+
+  .footer-bottom-list {
+    flex-basis: 15%;
+  }
+
+  .footer-bottom-list:first-child {
+    flex-basis: 32%;
+  }
+
+  .footer-bottom-list:not(:last-child) {
+    margin-right: 2%;
   }
 }
 
@@ -575,5 +675,13 @@
   .blog-box-item-info-group > img {
     margin-bottom: 0rem;
     margin-right: 1.4rem;
+  }
+
+  .footer-top {
+    top: -102%;
+  }
+
+  .footer-bottom h1 {
+    font-size: 2rem;
   }
 }
